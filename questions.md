@@ -1,228 +1,189 @@
-💰 Finance / Accounting-Focused Projects
-1. Personal Finance Analyzer
+# Python Project Portfolio: Finance, Science & Data Analytics
 
-What it does
+---
 
-Reads bank transactions from CSV
+## 💰 Finance & Accounting
 
-Categorizes expenses (rent, food, transport, etc.)
+### 1. Personal Finance Analyzer
 
-Monthly summaries + trend analysis
+* **Core Functionality:** Reads bank transactions via CSV, categorizes expenses (rent, food, transport), generates monthly summaries, and visualizes spending trends.
+* **Tech Stack:** `Pandas` (groupby, aggregation), `Seaborn` (bar + line plots), File automation.
+* **Stretch Goals:** Budget alerts, rolling averages, and category pie charts.
 
-Visualizes spending over time
+### 2. Loan & Investment Simulator
 
-Tech used
+* **Core Functionality:** Calculates loan amortization schedules, compares interest rates/terms, and simulates compound interest growth.
+* **Tech Stack:** `NumPy`, Python functions, `Matplotlib`.
+* **Stretch Goals:** Monte Carlo simulations and CSV schedule exports.
 
-Pandas (groupby, aggregation)
+### 3. Business Revenue Dashboard
 
-Seaborn (bar + line plots)
+* **Core Functionality:** Processes sales data from CSV/Excel to compute revenue, profit margins, and growth rates using multi-subplot dashboards.
+* **Tech Stack:** `Pandas`, `Seaborn`, Data cleaning modules.
+* **Stretch Goals:** Scenario analysis (price sensitivity) and KPI summary tables.
 
-File automation (multiple CSVs)
+---
 
-Optional: export cleaned reports
+## 🔬 Science & Engineering
 
-Stretch
+### 4. Experimental Data Analysis Tool
 
-Budget alerts
+* **Core Functionality:** Loads measurements, cleans noisy datasets, performs curve fitting, and visualizes residuals.
+* **Tech Stack:** `NumPy` curve fitting, `Pandas`, `Matplotlib`.
+* **Stretch Goals:** Automated multi-experiment comparison.
 
-Rolling averages
+### 5. Physics Simulation & Visualization
 
-Category pie charts
+* **Core Functionality:** Models projectile motion with air resistance, harmonic oscillators, or population growth.
+* **Tech Stack:** `NumPy` arrays, time-series visualization, parameter exploration.
+* **Stretch Goals:** Animated results and batch simulations.
 
-2. Loan & Investment Simulator
+---
 
-What it does
+## 📊 Data Analytics & General Python
 
-Calculates loan amortization schedules
+### 6. CSV Batch Processing System
 
-Compares different interest rates and terms
+* **Core Functionality:** Automates reading, cleaning, and merging dozens of CSV files from a single directory to generate summary reports.
+* **Tech Stack:** File automation, `Pandas` aggregation, Error handling.
+* **Real-world Context:** Mimics professional data analyst workflows.
 
-Simulates investment growth with compounding
+### 7. Student Grades & Performance Analyzer
 
-Tech used
+* **Core Functionality:** Aggregates grades to calculate averages and rankings while identifying at-risk students.
+* **Stretch Goals:** Performance trend prediction and summary exports.
 
-NumPy math
+### 8. Inventory & Sales Forecast Tool
 
-Functions
+* **Core Functionality:** Tracks stock levels, identifies moving speeds (fast/slow), and flags restocking requirements.
+* **Tech Stack:** `Pandas`, time-based aggregation, `Seaborn`.
 
-Matplotlib for comparisons
+---
 
-Stretch
+## 🎛️ Interactive & High-Impact
 
-Monte Carlo simulations
+### 9. Interactive Data Dashboard (Notebook-Based)
 
-CSV export of schedules
+* **Core Functionality:** Dynamic plot updates based on user-selected parameters.
+* **Best For:** Demonstrations, teaching, and presentations.
 
-3. Business Revenue Dashboard
+### 10. “One-Click” Data Report Generator
 
-What it does
+* **Core Functionality:** End-to-end automation. Inputting raw data produces a folder containing cleaned CSVs, summary tables, and PNG charts.
+* **Tech Stack:** Integration of all concepts (Weeks 1–9).
 
-Loads sales data (CSV/Excel)
 
-Computes revenue, profit margins, growth rates
+## 💰 Dataset 1: Personal Finance Transactions
 
-Visual dashboard with multiple plots
+**Use cases:**
+Expense analysis, budgeting tools, dashboards
 
-Tech used
+```csv
+date,description,category,amount
+2025-01-01,Rent,Housing,-1200
+2025-01-03,Grocery Store,Food,-145.32
+2025-01-05,Electric Bill,Utilities,-89.50
+2025-01-08,Internet Bill,Utilities,-65.00
+2025-01-10,Restaurant,Food,-42.75
+2025-01-12,Gas Station,Transport,-55.20
+2025-01-15,Salary,Income,3200
+2025-01-18,Movie Theater,Entertainment,-28.00
+2025-01-20,Gym Membership,Health,-45.00
+2025-01-25,Online Shopping,Misc,-120.99
+```
 
-Pandas + Seaborn
+**Key skills**
 
-Multi-subplot figures
+* Pandas grouping & aggregation
+* Time-series analysis
+* Spending category visualization
 
-Data cleaning
-
-Stretch
-
-Scenario analysis (price changes)
-
-KPI summary tables
-
-🔬 Science / Engineering-Style Projects
-4. Experimental Data Analysis Tool
-
-What it does
-
-Loads experiment measurements
-
-Cleans noisy data
-
-Fits curves to data
-
-Visualizes trends and residuals
-
-Tech used
-
-NumPy curve fitting
-
-Pandas cleaning
-
-Matplotlib plots
-
-Stretch
-
-Compare multiple experiments automatically
-
-5. Physics Simulation & Visualization
-
-Examples
-
-Projectile motion with air resistance
-
-Harmonic oscillator
-
-Population growth models
-
-Tech used
-
-NumPy arrays
-
-Visualization over time
-
-Parameter exploration
-
-Stretch
-
-Animate results
-
-Batch simulations
-
-📊 Data Analytics / General Python Projects
-6. CSV Batch Processing System
-
-What it does
-
-Reads dozens of CSV files from a folder
-
-Cleans, validates, merges them
-
-Generates summary reports + plots automatically
-
-Tech used
-
-File automation
-
-Pandas aggregation
-
-Error handling
-
-Real-world feel
-This mirrors actual data analyst work 🔥
-
-7. Student Grades & Performance Analyzer
-
-What it does
-
-Reads grades from multiple files
-
-Calculates averages, trends, rankings
-
-Identifies at-risk students
-
-Generates visual reports
-
-Stretch
-
-Predict performance trends
-
-Export summaries
-
-8. Inventory & Sales Forecast Tool
-
-What it does
-
-Tracks inventory levels
-
-Identifies fast/slow movers
-
-Visualizes stock trends
-
-Flags restocking needs
-
-Tech used
-
-Pandas
-
-Time-based aggregation
-
-Seaborn plots
-
-🎛️ Interactive / “Wow Factor” Projects
-9. Interactive Data Dashboard (Notebook-Based)
-
-What it does
-
-User selects dataset parameters
-
-Updates plots dynamically (via functions)
-
-Clean, presentation-ready visuals
-
-Good for
-
-Demonstrations
-
-Teaching or presentations
-
-10. “One-Click” Data Report Generator
-
-What it does
-
-Drop raw data in a folder
-
-Run one script
-
-Outputs:
-
-Clean CSV
-
-Summary tables
-
-PNG charts
-
-Final report folder
-
-Tech used
-
-Everything from Weeks 1–9
-
-Strong software-engineering vibe
+---
+
+## 📈 Dataset 2: Business Sales Data
+
+**Use cases:**
+Revenue dashboards, profit analysis, KPI tracking
+
+```csv
+date,product,units_sold,price_per_unit,cost_per_unit
+2025-01-01,Widget A,120,15.00,9.00
+2025-01-02,Widget B,75,22.00,14.00
+2025-01-03,Widget A,90,15.00,9.00
+2025-01-04,Widget C,60,30.00,18.00
+2025-01-05,Widget B,110,22.00,14.00
+2025-01-06,Widget C,40,30.00,18.00
+2025-01-07,Widget A,130,15.00,9.00
+```
+
+**Derived metrics**
+
+* Revenue = `units_sold × price_per_unit`
+* Profit = `units_sold × (price_per_unit − cost_per_unit)`
+
+---
+
+## 🔬 Dataset 3: Experimental Physics Data
+
+**Use cases:**
+Curve fitting, numerical analysis, scientific plots
+
+```csv
+time_seconds,position_meters
+0,0.0
+1,4.9
+2,19.6
+3,44.1
+4,78.4
+5,122.5
+6,176.4
+7,240.1
+8,313.6
+9,396.9
+```
+
+**Great for**
+
+* Quadratic regression
+* Residual analysis
+* Model validation
+
+---
+
+## 🎓 Dataset 4: Student Grades
+
+**Use cases:**
+Performance analysis, data cleaning, reporting
+
+```csv
+student_id,exam1,exam2,final,attendance
+S001,78,82,85,92
+S002,65,70,68,85
+S003,90,88,91,98
+S004,55,60,58,72
+S005,83,79,88,90
+S006,72,75,70,80
+```
+
+**Analysis ideas**
+
+* Weighted averages
+* Risk classification
+* Attendance vs performance plots
+
+---
+
+## 🧪 Dataset 5: Inventory Levels
+
+**Use cases:**
+Inventory tracking, automation, forecasting
+
+```csv
+date,product,stock_level,units_sold
+2025-01-01,Item A,500,40
+2025-01-02,Item A,460,35
+2025-01-03,Item A,425,50
+2025-01-04,Item B,300,20
+2025-01-05,Item B,280,25
+2025-01-06,Item C,150,15
+```
